@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- Tells TestNG which class to start. Maven reads this file (see pom.xml). -->
+<suite name="GreenKart Suite">
+    <test name="GreenKart Cucumber Tests">
+        <classes>
+            <class name="runners.TestRunner"/>
+        </classes>
+    </test>
+</suite>
